@@ -1,4 +1,17 @@
 
+        const alertMessages = {
+            es: {
+                emptyFields: 'Por favor completa todos los campos',
+                invalidEmail: 'Por favor ingresa un email válido',
+                success: '¡Gracias por tu mensaje! Te contactaremos pronto.'
+            },
+            en: {
+                emptyFields: 'Please fill out all fields',
+                invalidEmail: 'Please enter a valid email address',
+                success: 'Thank you for your message! We’ll get back to you soon.'
+            }
+        };
+        
         // Slider de servicios
         const servicesWrapper = document.querySelector('.services-wrapper');
         const nextBtn = document.querySelector('.next-btn');
@@ -117,7 +130,6 @@
                 "value-4-desc": "Facilitamos el seguimiento claro de cada etapa del proceso productivo.",
 
                 // Services
-                "section-title": "Servicios",
                 "services-desc": "Te ayudamos a optimizar tus cultivos, gestionar mejor los recursos y mantener la trazabilidad de tus procesos agrícolas, todo desde una plataforma fácil de usar",
                 "service-1-title": "Registro y trazabilidad",
                 "service-1-desc": "Registra y sigue cada etapa de la producción.",
@@ -134,6 +146,14 @@
                 "testimonials-title": "Lo que dicen nuestros usuarios",
                 "testimonials-desc": "Experiencias reales de trabajadores y clientes que confían en Agromind",
                 "read-testimonials": "Lee los testimonios",
+                "testimonial-text-1": '"Antes llevaba mis apuntes en un cuaderno y siempre perdía información. Con EcoTrack registro mis labores y costos desde el celular, y ya noto mejores resultados en mis cultivos."',
+                "testimonial-text-2": '"Me encantó que puedo ver cómo va mi cultivo día a día y recibir alertas cuando algo no está bien. Me ayuda a organizarme y ahorrar agua."',
+                "testimonial-text-3": '"EcoTrack me permite analizar los datos de cada parcela y dar recomendaciones más precisas. Mis clientes confían más en mi trabajo porque ven resultados claros."',
+                "testimonial-text-4": '"Con EcoTrack logramos que todos los socios de nuestra cooperativa registren sus datos de producción en un solo lugar. Planificamos mejor las cosechas y negociamos precios más justos."',
+                "testimonial-persona-1": "Agricultor pequeño",
+                "testimonial-persona-2": "Agricultora mediana",
+                "testimonial-persona-3": "Agrónomo asesor",
+                "testimonial-persona-4": "Presidenta de la Cooperativa Valle Verde",
 
                 // Stats
                 "stats-1": "Agricultores y Agrónomos registrados",
@@ -151,6 +171,17 @@
                 "benefit-3": "Soporte al cliente disponible",
                 "register-now": "Registrarse ahora",
                 "learn-more": "Conocer más",
+
+                "contact-question-title": "¿Tienes alguna pregunta?",
+                "contact-question-desc": "Completa el formulario y nos pondremos en contacto contigo lo antes posible.",
+                "contact-name-label": "Nombre completo",
+                "contact-name-placeholder": "Tu nombre",
+                "contact-email-label": "Correo electrónico",
+                "contact-email-placeholder": "tu@email.com",
+                "contact-message-label": "Mensaje",
+                "contact-message-placeholder": "¿En que podemos ayudarte",
+                "contact-submit": "Enviar mensaje",
+
 
                 // Footer
                 "footer-desc": "Conectamos a agricultores y agrónomos a través de soluciones digitales para el campo contribuyendo, optimizando la trazabilidad, la productividad y la asesoría técnica en el campo.",
@@ -236,6 +267,14 @@
                 "testimonials-title": "What our users say",
                 "testimonials-desc": "Real experiences from workers and clients who trust Agromind",
                 "read-testimonials": "Read testimonials",
+                "testimonial-text-1": "“I used to keep notes in a notebook and always lost information. With EcoTrack I record my tasks and costs from my phone, and I’m already seeing better results in my crops.”",
+                "testimonial-text-2": "“I love that I can see how my crop is doing day by day and get alerts when something’s wrong. It helps me stay organized and save water.”",
+                "testimonial-text-3": "“EcoTrack lets me analyze data for each plot and give more precise recommendations. My clients trust my work more because they see clear results.”",
+                "testimonial-text-4": "“With EcoTrack we got all members of our cooperative to record their production data in one place. We plan harvests better and negotiate fairer prices.”",
+                "testimonial-persona-1": "Small-scale farmer",
+                "testimonial-persona-2": "Medium-scale farmer",
+                "testimonial-persona-3": "Consulting agronomist",
+                "testimonial-persona-4": "President of the Valle Verde Cooperative",
 
                 // Stats
                 "stats-1": "Registered Farmers and Agronomists",
@@ -254,6 +293,16 @@
                 "register-now": "Register now",
                 "learn-more": "Learn more",
 
+                "contact-question-title": "Do you have any questions?",
+                "contact-question-desc": "Fill out the form and we’ll get in touch with you as soon as possible.",
+                "contact-name-label": "Full name",
+                "contact-name-placeholder": "Your name",
+                "contact-email-label": "Email address",
+                "contact-email-placeholder": "you@email.com",
+                "contact-message-label": "Message",
+                "contact-message-placeholder": "How can we help you?",
+                "contact-submit": "Send message",
+
                 // Footer
                 "footer-desc": "We connect farmers and agronomists through digital solutions for the field, contributing, optimizing traceability, productivity and technical advice in the field.",
                 "platform": "Platform",
@@ -261,6 +310,26 @@
                 "legal": "Legal",
                 "copyright": "© 2025 Agromind All rights reserved.",
                 "made-with": "Made with ❤️ by UPC students",
+                
+                "footer-platform": "Platform",
+                "footer-company": "Company",
+                "footer-legal": "Legal",
+
+                "footer-how-it-works": "How it works",
+                "footer-services": "Services",
+                "footer-pricing": "Pricing",
+                "footer-faq": "FAQ",
+
+                "footer-about-us": "About us",
+                "footer-mission-vision": "Mission and Vision",
+                "footer-team": "Team",
+                "footer-blog": "Blog",
+
+                "footer-terms": "Terms and Services",
+                "footer-privacy": "Privacy Policy",
+                "footer-cookies": "Cookies",
+                
+                //
 
                 "job-farmer": "Farmer",
                 "job-agronomist": "Agronomist",
@@ -276,6 +345,7 @@
 
                 "plan-2-feature-1": "Everything from AgroStart",
                 "plan-2-feature-2": "Up to 20 plots and 3 organizations",
+                
                 // Pricing
                 "pricing-title": "Choose the perfect plan for you",
                 "pricing-desc": "Flexible plans designed for farmers and agronomists of all sizes",
@@ -329,6 +399,13 @@
                 }
             });
 
+            document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-translate-placeholder');
+                if (translations[currentLanguage][key]) {
+                    el.placeholder = translations[currentLanguage][key];
+                }
+            });
+
             // Actualizar el atributo lang del HTML
             document.documentElement.lang = currentLanguage;
         }
@@ -341,23 +418,24 @@
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            const nombre = document.getElementById('nombre').value;
-            const email = document.getElementById('email').value;
-            const mensaje = document.getElementById('mensaje').value;
-            
+            const nombre = document.getElementById('nombre').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const mensaje = document.getElementById('mensaje').value.trim();
+
+            const messages = alertMessages[currentLanguage] || alertMessages['es']; // fallback a español
+
             if (!nombre || !email || !mensaje) {
-                alert('Por favor completa todos los campos');
+                alert(messages.emptyFields);
                 return;
             }
-            
+
             if (!email.includes('@')) {
-                alert('Por favor ingresa un email válido');
+                alert(messages.invalidEmail);
                 return;
             }
-            
-            // Aquí normalmente enviarías el formulario a un servidor
+
             console.log('Formulario enviado:', { nombre, email, mensaje });
-            alert('¡Gracias por tu mensaje! Te contactaremos pronto.');
+            alert(messages.success);
             contactForm.reset();
         });
 

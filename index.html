@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=deh, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agromind | Agricultura Eficiente y Colaborativa</title>
     <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -10,7 +10,7 @@
     <header class="navbar">
         <div class="logo">
             <div class="logo-circle">C</div>
-            <span class="logo-text">AgroTrack</span>
+            <span class="logo-text">AgroMind</span>
         </div>
         <nav>
             <a href="#about" class="nav-link" data-translate="about">Nosotros</a>
@@ -114,10 +114,10 @@
         <section  id ="services" class="services">
             <div class="search-bar">
                 <span class="search-icon">🤝</span>
-                <span>Servicios</span>
+                <span data-translate="services">Servicios</span>
             </div>
-            <h2 class="section-title">Servicios</h2>
-            <p class="section-desc">
+            <h2 class="section-title" data-translate="services">Servicios</h2>
+            <p class="section-desc" data-translate="services-desc">
                 Te ayudamos a optimizar tus cultivos, gestionar mejor los recursos y mantener la 
                 trazabilidad de tus procesos agrícolas, todo desde una plataforma fácil de usar
             </p>
@@ -182,10 +182,10 @@
         <section  id ="testimonials" class="testimonials">
             <div class="search-bar">
                 <span class="search-icon">💻</span>
-                <span>Testimonios</span>
+                <span data-translate="testimonials">Testimonios</span>
             </div>
-            <h2 class="section-title">Lo que dicen nuestros usuarios</h2>
-            <p class="section-desc">
+            <h2 class="section-title" data-translate="testimonials-title">Lo que dicen nuestros usuarios</h2>
+            <p class="section-desc" data-translate="testimonials-desc">
                 Experiencias reales de trabajadores y clientes que confían en Agromind
             </p>
             
@@ -198,7 +198,7 @@
                         <span class="star">⭐</span>
                         <span class="star">⭐</span>
                     </div>
-                    <p class="testimonial-text">
+                    <p class="testimonial-text" data-translate="testimonial-text-1">
                         "Antes llevaba mis apuntes en un cuaderno y siempre perdía información. Con EcoTrack registro mis labores y costos desde el celular, y ya noto mejores resultados en mis cultivos."
                     </p>
                     <div class="testimonial-author">
@@ -207,7 +207,7 @@
                         </div>
                         <div class="author-info">
                             <h4>Carlos Mendoza</h4>
-                            <p>Agricultor pequeño</p>
+                            <p data-translate="testimonial-persona-1">Agricultor pequeño</p>
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,7 @@
                         <span class="star">⭐</span>
                         <span class="star">⭐</span>
                     </div>
-                    <p class="testimonial-text">
+                    <p class="testimonial-text" data-translate="testimonial-text-2">
                         "Me encantó que puedo ver cómo va mi cultivo día a día y recibir alertas cuando algo no está bien. Me ayuda a organizarme y ahorrar agua."
                     </p>
                     <div class="testimonial-author">
@@ -229,7 +229,7 @@
                         </div>
                         <div class="author-info">
                             <h4>María Sánchez</h4>
-                            <p>Agricultora mediana</p>
+                            <p data-translate="testimonial-persona-2">Agricultora mediana</p>
                         </div>
                     </div>
                 </div>
@@ -242,7 +242,7 @@
                         <span class="star">⭐</span>
                         <span class="star">⭐</span>
                     </div>
-                    <p class="testimonial-text">
+                    <p class="testimonial-text" data-translate="testimonial-text-3">
                         "EcoTrack me permite analizar los datos de cada parcela y dar recomendaciones más precisas. Mis clientes confían más en mi trabajo porque ven resultados claros."
                     </p>
                     <div class="testimonial-author">
@@ -251,7 +251,7 @@
                         </div>
                         <div class="author-info">
                             <h4>Jorge Ramírez</h4>
-                            <p>Agrónomo asesor</p>
+                            <p data-translate="testimonial-persona-3">Agrónomo asesor</p>
                         </div>
                     </div>
                 </div>
@@ -264,7 +264,7 @@
                         <span class="star">⭐</span>
                         <span class="star">⭐</span>
                     </div>
-                    <p class="testimonial-text">
+                    <p class="testimonial-text" data-translate="testimonial-text-4">
                         "Con EcoTrack logramos que todos los socios de nuestra cooperativa registren sus datos de producción en un solo lugar. Planificamos mejor las cosechas y negociamos precios más justos."
                     </p>
                     <div class="testimonial-author">
@@ -273,14 +273,14 @@
                         </div>
                         <div class="author-info">
                             <h4>Ana Torres</h4>
-                            <p>Presidenta de la Cooperativa Valle Verde</p>
+                            <p data-translate="testimonial-persona-4">Presidenta de la Cooperativa Valle Verde</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <button class="btn-testimonials">
-                Lee los testimonios
+                <span class="btn-label" data-translate="read-testimonials">Lee los testimonios</span>
                 <span class="arrow-icon">→</span>
             </button>
         </section>
@@ -406,27 +406,27 @@
             <div class="stats-grid">
                 <div class="stat-item">
                     <h3 class="stat-number" data-target="1000" data-suffix="+">0</h3>
-                    <p class="stat-desc">Agricultores y Agrónomos registrados</p>
+                    <p class="stat-desc" data-translate="stats-1">Agricultores y Agrónomos registrados</p>
                 </div>
 
                 <div class="stat-item">
                     <h3 class="stat-number" data-target="5000" data-suffix="+">0</h3>
-                    <p class="stat-desc">Actividades agrícolas registradas</p>
+                    <p class="stat-desc" data-translate="stats-2">Actividades agrícolas registradas</p>
                 </div>
 
                 <div class="stat-item">
                     <h3 class="stat-number" data-target="4.8" data-suffix="/5" data-decimals="1">0.0</h3>
-                    <p class="stat-desc">Calificación promedio</p>
+                    <p class="stat-desc" data-translate="stats-3">Calificación promedio</p>
                 </div>
 
                 <div class="stat-item">
                     <h3 class="stat-number" data-target="95" data-suffix="%">0</h3>
-                    <p class="stat-desc">Usuarios satisfechos</p>
+                    <p class="stat-desc" data-translate="stats-4">Usuarios satisfechos</p>
                 </div>
             </div>
 
             <button class="btn-impact">
-                Conoce nuestro impacto
+                <span data-translate="know-more">Conoce nuestro impacto</span>
                 <span class="arrow-right">→</span>
             </button>
         </section>
@@ -436,47 +436,47 @@
                 <div class="contact-content">
                     <div class="contact-badge">
                         <span class="rocket-icon">🚀</span>
-                        Únete a nosotros
+                        <span data-translate="join-us">Únete a nosotros</span> 
                     </div>
-                    <h2 class="contact-title">Comienza hoy mismo con Agromind</h2>
-                    <p class="contact-desc">
+                    <h2 class="contact-title" data-translate="start-today">Comienza hoy mismo con Agromind</h2>
+                    <p class="contact-desc" data-translate="contact-desc">
                         Si buscas optimizar tu trabajo en el campo o asesorar con datos precisos, nuestro equipo está aquí para acompañarte.
                     </p>
                     <ul class="benefits-list">
-                        <li><span class="check-icon">✓</span> Registro gratuito y sencillo</li>
-                        <li><span class="check-icon">✓</span> Asesoría personalizada</li>
-                        <li><span class="check-icon">✓</span> Soporte al cliente disponible</li>
+                        <li><span class="check-icon">✓</span><span data-translate="benefit-1"> Registro gratuito y sencillo</li>
+                        <li><span class="check-icon">✓</span><span data-translate="benefit-2"> Asesoría personalizada</li>
+                        <li><span class="check-icon">✓</span><span data-translate="benefit-3"> Soporte al cliente disponible</li>
                     </ul>
                     <div class="cta-buttons">
                         <button class="btn-register-now">
-                            Registrarse ahora
+                            <span data-translate="register-now">Registrarse ahora</span>
                             <span class="arrow-icon">→</span>
                         </button>
-                        <button class="btn-learn-more">Conocer más</button>
+                        <button class="btn-learn-more" data-translate="learn-more">Conocer más</button>
                     </div>
                 </div>
 
                 <div class="contact-form">
-                    <h3>¿Tienes alguna pregunta?</h3>
-                    <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                    <h3 data-translate="contact-question-title">¿Tienes alguna pregunta?</h3>
+                    <p data-translate="contact-question-desc">Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
                     
                     <form id="contact-form">
                         <div class="form-group">
-                            <label for="nombre">Nombre completo</label>
-                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                            <label for="nombre" data-translate="contact-name-label">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" data-translate-placeholder="contact-name-placeholder">
                         </div>
                         
                         <div class="form-group">
-                            <label for="email">Correo electrónico</label>
-                            <input type="email" id="email" name="email" placeholder="tu@email.com">
+                            <label for="email" data-translate="contact-email-label">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" data-translate-placeholder="contact-email-placeholder">
                         </div>
                         
                         <div class="form-group">
-                            <label for="mensaje">Mensaje</label>
-                            <textarea id="mensaje" name="mensaje" placeholder="¿En qué podemos ayudarte?"></textarea>
+                            <label for="mensaje" data-translate="contact-message-label">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="¿En qué podemos ayudarte?" data-translate-placeholder="contact-message-placeholder"></textarea>
                         </div>
                         
-                        <button type="submit" class="btn-submit">Enviar mensaje</button>
+                        <button type="submit" class="btn-submit" data-translate="contact-submit">Enviar mensaje</button>
                     </form>
                 </div>
             </div>
@@ -490,7 +490,7 @@
                     <div class="logo-circle">C</div>
                     <span class="logo-text">Agromind</span>
                 </div>
-                <p class="brand-description">
+                <p class="brand-description" data-translate="footer-desc">
                     Conectamos a agricultores y agrónomos a través de soluciones digitales
                     para el campo contribuyendo, optimizando la trazabilidad, la productividad y la
                     asesoría técnica en el campo.
@@ -499,42 +499,43 @@
 
             <div class="footer-links">
                 <div class="footer-column">
-                    <h4>Plataforma</h4>
+                    <h4 data-translate="platform">Plataforma</h4>
                     <ul>
-                        <li><a href="#">Cómo funciona</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Precios</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#" data-translate="footer-how-it-works">Cómo funciona</a></li>
+                        <li><a href="#" data-translate="footer-services">Servicios</a></li>
+                        <li><a href="#" data-translate="footer-pricing">Precios</a></li>
+                        <li><a href="#" data-translate="footer-faq">FAQ</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
-                    <h4>Empresa</h4>
+                    <h4 data-translate="company">Empresa</h4>
                     <ul>
-                        <li><a href="#">Sobre nosotros</a></li>
-                        <li><a href="#">Misión y Visión</a></li>
-                        <li><a href="#">Equipo</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="#" data-translate="footer-about-us">Sobre nosotros</a></li>
+                        <li><a href="#" data-translate="footer-mission-vision">Misión y Visión</a></li>
+                        <li><a href="#" data-translate="footer-team">Equipo</a></li>
+                        <li><a href="#" data-translate="footer-blog">Blog</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
-                    <h4>Legal</h4>
+                    <h4 data-translate="legal">Legal</h4>
                     <ul>
-                        <li><a href="#">Términos y servicios</a></li>
-                        <li><a href="#">Política de Privacidad</a></li>
-                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#" data-translate="footer-terms">Términos y servicios</a></li>
+                        <li><a href="#" data-translate="footer-privacy">Política de Privacidad</a></li>
+                        <li><a href="#" data-translate="footer-cookies">Cookies</a></li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p class="copyright">© 2025 Agromind Todos los derechos reservados.</p>
-            <p class="credits">Hecho con ❤️ por estudiantes de la UPC</p>
+            <p class="copyright" data-translate="copyright">© 2025 Agromind Todos los derechos reservados.</p>
+            <p class="credits" data-translate="made-with">Hecho con ❤️ por estudiantes de la UPC</p>
         </div>
     </footer>
 
- <script src="assets/main.js"></script>   
+ <script src="assets/main.js"></script>
+   
 </body>
 </html>
