@@ -1,5 +1,4 @@
-
-        const alertMessages = {
+const alertMessages = {
             es: {
                 emptyFields: 'Por favor completa todos los campos',
                 invalidEmail: 'Por favor ingresa un email válido',
@@ -459,4 +458,25 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+});
+
+// Funcionalidad de redirección para botones de navegación
+document.addEventListener('DOMContentLoaded', function() {
+    const btnLogin = document.querySelector('.btn-login');
+    const btnRegister = document.querySelector('.btn-register');
+    const ecoTrackUrl = 'https://ecotrack-web-app.netlify.app/';
+
+    // Redirección para botón de login
+    if (btnLogin) {
+        btnLogin.addEventListener('click', function() {
+            window.open(ecoTrackUrl, '_blank');
+        });
+    }
+
+    // Redirección para botón de register
+    if (btnRegister) {
+        btnRegister.addEventListener('click', function() {
+            window.open(ecoTrackUrl, '_blank');
+        });
+    }
 });
