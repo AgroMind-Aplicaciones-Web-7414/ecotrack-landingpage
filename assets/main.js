@@ -141,6 +141,18 @@ const alertMessages = {
                 "service-5-title": "Asesoría experta",
                 "service-5-desc": "Conecta con agrónomos especializados para optimizar tus cultivos.",
 
+                // Product Video
+                "product": "Acerca del Producto",
+                "product-title": "Conoce EcoTrack en acción",
+                "product-desc-1": "EcoTrack es nuestra plataforma integral diseñada para transformar la manera en que agricultores y agrónomos gestionan sus cultivos. Con tecnología de punta y una interfaz intuitiva, facilitamos el registro, monitoreo y análisis de datos agrícolas en tiempo real.",
+                "product-desc-2": "Descubre cómo nuestra solución puede ayudarte a optimizar recursos, aumentar la productividad y tomar decisiones informadas basadas en datos concretos.",
+
+                // Team Video
+                "team": "Acerca del Equipo",
+                "team-title": "Conoce al equipo detrás de Agromind",
+                "team-desc-1": "Somos un equipo multidisciplinario de ingenieros, agrónomos y diseñadores apasionados por la innovación en el sector agrícola. Nuestra misión es crear herramientas tecnológicas que realmente marquen la diferencia en el campo.",
+                "team-desc-2": "Con experiencia en desarrollo de software, agronomía y diseño de experiencia de usuario, trabajamos cada día para hacer de EcoTrack la mejor plataforma para la gestión agrícola sostenible.",
+
                 // Testimonials
                 "testimonials-title": "Lo que dicen nuestros usuarios",
                 "testimonials-desc": "Experiencias reales de trabajadores y clientes que confían en Agromind",
@@ -261,6 +273,18 @@ const alertMessages = {
                 "service-4-desc": "Monitor environmental conditions and receive alerts of important changes.",
                 "service-5-title": "Expert Advice",
                 "service-5-desc": "Connect with specialized agronomists to optimize your crops.",
+
+                // Product Video
+                "product": "About the Product",
+                "product-title": "See EcoTrack in action",
+                "product-desc-1": "EcoTrack is our comprehensive platform designed to transform the way farmers and agronomists manage their crops. With cutting-edge technology and an intuitive interface, we facilitate the registration, monitoring and analysis of agricultural data in real time.",
+                "product-desc-2": "Discover how our solution can help you optimize resources, increase productivity and make informed decisions based on concrete data.",
+
+                // Team Video
+                "team": "About the Team",
+                "team-title": "Meet the team behind Agromind",
+                "team-desc-1": "We are a multidisciplinary team of engineers, agronomists and designers passionate about innovation in the agricultural sector. Our mission is to create technological tools that truly make a difference in the field.",
+                "team-desc-2": "With experience in software development, agronomy and user experience design, we work every day to make EcoTrack the best platform for sustainable agricultural management.",
 
                 // Testimonials
                 "testimonials-title": "What our users say",
