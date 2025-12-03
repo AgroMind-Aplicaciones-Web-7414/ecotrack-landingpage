@@ -337,6 +337,136 @@ h1 {
 }
 
 
+/* Product Video Section */
+.product-video {
+    padding: 5rem 5%;
+    background: linear-gradient(135deg, #f0f8ff 0%, #e8f5e9 100%);
+    text-align: center;
+}
+
+.product-video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    background: #000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.product-description h2 {
+    font-size: 2.5rem;
+    color: var(--color-text);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+}
+
+.product-description p {
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .product-video-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .product-description {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-description h2 {
+        font-size: 2rem;
+    }
+
+    .product-description p {
+        font-size: 1rem;
+    }
+}
+
+/* Team Video Section */
+.team-video {
+    padding: 5rem 5%;
+    text-align: center;
+    background: linear-gradient(135deg, #fff8f0 0%, #f3e5f5 100%);
+}
+
+.team-video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.team-description {
+    order: 1;
+}
+
+.team-description h2 {
+    font-size: 2.5rem;
+    color: var(--color-text);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+}
+
+.team-description p {
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .team-video-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .team-description {
+        order: 2;
+        text-align: center;
+    }
+
+    .team-video-container .video-wrapper {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-description h2 {
+        font-size: 2rem;
+    }
+
+    .team-description p {
+        font-size: 1rem;
+    }
+}
+
 /* Testimonials Section */
 .testimonials {
     padding: 5rem 5%;
